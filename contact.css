@@ -1,0 +1,156 @@
+
+/* ____________ All ____________  */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* ____________ Navigation ____________  */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0px 0px 6px #888888;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin: 1vw 2vw;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 3vw;
+  color: #8cb8a7;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin: 2vh 2vw;
+}
+
+.nav-button {
+  font-size: 2vh;
+  margin: auto 15px;
+  color: #979595;
+}
+
+.nav-button:hover {
+  font-size: 2vh;
+  margin: auto 15px;
+  color: black;
+}
+
+
+/* ____________ Header ____________  */
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 2vw;
+}
+
+.header-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 6px #888888;
+  font-size: 2.2vw;
+  font-weight: lighter;
+  margin: 0 0 3vw 4vw;
+  height: 8vh;
+  width: 35vw;
+}
+
+.header-blurb {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+.header-button {
+  border: 1px solid black;
+  height: 100px;
+  width: 150px;
+}
+
+
+/* ____________ Main ____________  */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  background-image: url('images/chem.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-position: center; 
+}
+
+.contact-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-title {
+  font-size: 2em;
+  margin: 40px 50px;
+}
+
+.contact-info-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.contact-info {
+  background: transparent;
+  /* border: none; */
+  border: 1px solid black;
+  height: 40px;
+  width: 300px;
+}
+
+.contact-message {
+  background: transparent;
+  /* border: none; */
+  border: 1px solid black;
+  height: 2.5vw;
+  width: 45vw;
+  margin: 30px;
+}
+
+hr {
+  width: 30vw;
+  border: 1px solid blue;
+}
+
+.contact-submit {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 4vw;
+  width: 40vw;
+  margin: 0 auto;
+}
+
+/* ____________ Footer ____________  */
+footer {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh 2vw;
+  justify-content: center;
+  font-weight: 100;
+}

@@ -1,0 +1,134 @@
+
+/* ____________ All ____________  */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* ____________ Navigation ____________  */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0px 0px 6px #888888;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin: 1vw 2vw;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 3vw;
+  color: #8cb8a7;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin: 2vh 2vw;
+}
+
+.nav-button {
+  font-size: 2vh;
+  margin: auto 15px;
+  color: #979595;
+}
+
+.nav-button:hover {
+  font-size: 2vh;
+  margin: auto 15px;
+  color: black;
+}
+
+
+/* ____________ Header ____________  */
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 2vw;
+}
+
+.header-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 6px #888888;
+  font-size: 2.2vw;
+  font-weight: lighter;
+  margin: 0 0 3vw 4vw;
+  height: 8vh;
+  width: 35vw;
+}
+
+.header-blurb {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+.header-button {
+  border: 1px solid black;
+  height: 100px;
+  width: 150px;
+}
+
+
+/* ____________ Main ____________  */
+main {
+}
+
+.body-blocks {
+  display: flex;
+  flex-direction: row;
+}
+
+.body-block:nth-of-type(even) {
+  background-color: #8cb8a7;
+  color: white;
+}
+
+.body-block:nth-of-type(odd) {
+  background-color: #dcdbdb;
+  color: #686868;
+}
+
+.body-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 25%;
+}
+
+.body-block-title {
+  text-align: center;
+  font-size: 3vh;
+  font-weight: 900;
+  letter-spacing: 5px;
+  margin: 10% auto;
+}
+
+.body-block-text {
+  text-align: center;
+  font-weight: 100;
+  width: 60%;
+  margin-bottom: 30%;
+}
+
+/* ____________ Footer ____________  */
+footer {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh 2vw;
+  justify-content: center;
+  font-weight: 100;
+}

@@ -1,0 +1,93 @@
+
+/* ____________ All ____________  */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* ____________ Navigation ____________  */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0px 0px 6px #888888;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin: 1vw 2vw;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 3vw;
+  color: #8cb8a7;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin: 2vh 2vw;
+}
+
+.nav-button {
+  font-size: 2vh;
+  margin: auto 15px;
+  color: #979595;
+}
+
+.nav-button:hover {
+  font-size: 2vh;
+  margin: auto 15px;
+  color: black;
+}
+
+
+/* ____________ Header ____________  */
+
+
+/* ____________ Main ____________  */
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-img {
+  width: 50vw;
+  height: 45vw;
+  background-image: url('images/medicine.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 45vw;
+  background-position: center; 
+}
+
+.about-text {
+  width: 50vw;
+  height: 45vw;
+  background-color: #8cb8a7
+}
+
+.about-title {
+  font-size: 2.5vw;
+  letter-spacing: .5vw;
+  color: white;
+  margin: 5vw 0 2vw 2vw;
+}
+
+p {
+  color: white;
+}
+
+/* ____________ Footer ____________  */
+footer {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh 2vw;
+  justify-content: center;
+  font-weight: 100;
+}
