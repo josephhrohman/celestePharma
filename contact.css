@@ -4,6 +4,8 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  border: 0;
+  text-decoration: none;
 }
 
 body {
@@ -108,19 +110,17 @@ main {
 }
 
 .contact-info-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .contact-info {
   background: transparent;
-  /* border: none; */
-  border: 1px solid black;
+  border: none;
   height: 40px;
   width: 300px;
-  margin: 10px 0;
+  margin: 10px 20px;
+  padding: 0;
 }
 
 .contact-message {
